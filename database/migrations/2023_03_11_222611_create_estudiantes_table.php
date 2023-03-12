@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('nombre');
             $table->string('rol');
             $table->string('nivelgrupo');
+            $table->string('Correo');
+            $table->string('Contraseña');
             $table->timestamps();
         });
     }
